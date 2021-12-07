@@ -252,3 +252,8 @@ By clicking on the failed task, they get into a console window and see the resul
 ![Failed pipeline result](./assets/pictures/pipeline-failed2.png)
 
 Within the package *testthat*, you can choose between different versions (mostly 2 and 3), whereby package 3 prints precisely why the test failed (see screenshot above). As a result, students know that their object did not equal 36 (so they should work on the calculation of 36 and test it again).
+
+## Testing it
+
+You can create a branch and upload an own file called `stud-solutions.R` or modify the file. Then you can go on `CI/CD -> Pipelines -> Run pipeline` choose your branch and start the runner. 
+
