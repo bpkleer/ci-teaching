@@ -1,5 +1,5 @@
 source(
-  "./stud-solution.R",
+  "./solution.R",
   chdir = TRUE
 )
 
