@@ -31,9 +31,9 @@ load packages:
 task 1a:
   stage: check task 1
   script:
-    - r $SCRIPTS_DIR/solutions/lab1/test_check1a.R
+    - r $SCRIPTS_DIR/solutions/test/test_check1a.R
 
 task 1b:
   stage: check task 1
   script:
-    - r $SCRIPTS_DIR/solutions/lab1/test_check1b.R
+    - r $SCRIPTS_DIR/solutions/test/test_check1b.R
